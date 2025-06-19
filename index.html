@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>React Simulation</title>
+    <title>React App</title>
     <script>
       async function callAPI() {
         const res = await fetch("https://API_PROXY_URL_HERE");
         const data = await res.text();
-        document.getElementById("output").innerText = data;
+        document.getElementById("result").innerText = data;
       }
     </script>
   </head>
   <body>
-    <h2>React Frontend</h2>
-    <button onclick="callAPI()">Call Spring API</button>
-    <p id="output"></p>
+    <h1>Frontend (React Simulated)</h1>
+    <button onclick="callAPI()">Call Backend</button>
+    <p id="result"></p>
   </body>
 </html>
