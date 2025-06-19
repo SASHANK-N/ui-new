@@ -7,11 +7,10 @@ steps:
       - run
       - deploy
       - gcp-ui-new
-      - "--source=."
-      - "--region=us-central1"
-      - "--platform=managed"
-      - "--allow-unauthenticated"
-      - "--entry-point=server.js"
+      - '--source=.'
+      - '--region=us-central1'
+      - '--platform=managed'
+      - '--allow-unauthenticated'
 
 options:
   logging: CLOUD_LOGGING_ONLY
