@@ -4,7 +4,7 @@
     <title>React App</title>
     <script>
       async function callAPI() {
-        const res = await fetch("https://API_PROXY_URL_HERE");
+        const res = await fetch("https://api-final-939136953825.us-central1.run.app/api/hello");
         const data = await res.text();
         document.getElementById("result").innerText = data;
       }
